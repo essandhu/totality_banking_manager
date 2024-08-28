@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### Totality Banking Manager
 
-## Getting Started
+Financial Application for Managing Banking Information
+Try it out [here!](https://totality-banking-manager.vercel.app/)
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Currently, Totality Banking provides the following functionality:
+- [x] **Account Creation / Authentication:** Users can create an account to use the application, which is properly validated and stored to ensure data security
+![Screenshot of sign-up page](/public/screenshots/sign-up.png)
+![Screenshot of sign-in page](/public/screenshots/sign-in.png)
+- [x] **Plaid Integration:** Connecting to any amount of bank accounts securely through Plaid
+- [x] **Dashboard:** View important information such as total account balances, recent transactions, available banking cards, and more!
+![Screenshot of home screen after signing-in](/public/screenshots/home-screen.png)
+- [x] **Transaction History:** Full transaction history including name, date, amount, type, and status of each transaction, for each account linked
+![Screenshot of transactions history page](/public/screenshots/transactions.png)
+- [x] **Bank List:** View all currently connected banks and information regarding those accounts
+![Screenshot of banks list](/public/screenshots/banks.png)
+- [x] **Transfer Funds:** Allows for transfering funds from one account to another using Dwolla's payment processor
+![Screenshot of transfer funds page](/public/screenshots/transfer-funds.png)
+- [x] **Spending Habits:** Displays the most common types of transactions on the dashboard based on user activity
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Typescript
+- Next.js
+- Zod - schema validation
+- TailwindCSS - styling UI components
+- ShadCN-UI - providing bases for some frontend components
+- Chart.js - data visualization
+- Appwrite - database management
+- Plaid = connecting to bank accounts
+- Dwolla - payment processing
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Acknowledgements
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Special thanks to the developers of all tools and frameworks used during the development of this project.
+Credit to [adrianhajdin](https://github.com/adrianhajdin) on GitHub for providing assets used in this project.
