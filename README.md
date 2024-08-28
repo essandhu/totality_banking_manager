@@ -14,7 +14,7 @@ Currently, Totality Banking provides the following functionality:
 ![Screenshot of home screen after signing-in](/public/screenshots/home-screen.png)
 - [x] **Transaction History:** Full transaction history including name, date, amount, type, and status of each transaction, for each account linked <br/><br/>
 ![Screenshot of transactions history page](/public/screenshots/transactions.png)
-- [x] **Bank List:** View all currently connected banks and information regarding those accounts <br/>
+- [x] **Bank List:** View all currently connected banks and information regarding those accounts <br/><br/>
 ![Screenshot of banks list](/public/screenshots/banks.png)
 - [x] **Transfer Funds:** Allows for transfering funds from one account to another using Dwolla's payment processor <br/><br/>
 ![Screenshot of transfer funds page](/public/screenshots/transfer-funds.png)
